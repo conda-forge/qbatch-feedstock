@@ -1,13 +1,13 @@
 {% set name = "qbatch" %}
-{% set version = "2.3" %}
+{% set version = "2.3.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/qbatch-{{ version }}.tar.gz
-  sha256: 84dcd5f0650c694f0796aeb53e36b60e2388795f80d8c8a919b2379ead2a0193
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/qbatch-{{ version }}.tar.gz
+  sha256: 3771f198d34504c8115dbb396413305f91333859d4c96b5a64d6f39e807a540a
 
 build:
   entry_points:
